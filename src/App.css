@@ -15,7 +15,9 @@
   font-size: 1.5em; }
 
 .App-intro {
-  font-size: large; }
+  font-family: chaparral-pro, serif;
+  font-style: normal;
+  font-weight: 300; }
 
 @keyframes App-logo-spin {
   from {
