@@ -15,7 +15,7 @@ class App extends Component {
         <div className="App-intro">
           <h2>The Way Ahead is Just a PivotPoint away</h2>
         </div>
-        <img src={require('./images/mtnpath.jpg')}/>
+        <div id="hero"></div>
       </div>
     );
   }

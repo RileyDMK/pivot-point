@@ -19,6 +19,12 @@
   font-style: normal;
   font-weight: 300; }
 
+#hero {
+  width: 100%;
+  height: 100vh;
+  background-image: url(./images/mtnpath.jpg);
+  background-size: cover; }
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg); }
