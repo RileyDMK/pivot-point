@@ -13,7 +13,7 @@ class App extends Component {
           <h1 className="App-title">Pivot Point</h1>
         </header> */}
         <div className="App-intro">
-          <h2>The Way Ahead is Just a PivotPoint away</h2>
+          <h2>Hello</h2>
         </div>
         <div id="hero"></div>
       </div>
@@ -22,6 +22,14 @@ class App extends Component {
 }
 
 class Nav extends Component {
+  render(){
+    return(
+      <div>temp</div>
+    );
+  }
+}
+
+class FixedNav extends Component {
   render(){
     return (
       <header>
