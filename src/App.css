@@ -1,6 +1,9 @@
 .App {
   text-align: center; }
 
+#App {
+  padding: 0; }
+
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px; }
@@ -23,7 +26,9 @@
   list-style-type: none; }
 
 #nav > li {
-  display: inline; }
+  padding: 3px 6px;
+  display: inline;
+  font-size: 1em; }
 
 #hero {
   width: 100%;

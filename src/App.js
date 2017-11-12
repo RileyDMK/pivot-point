@@ -5,19 +5,18 @@ import './App.css';
 class App extends Component {
   render() {
     return (
+        <div id="App" className="container-fluid App">
+          {/* <header className="App-header">
 
-      <div className="container-fluid App">
-        {/* <header className="App-header">
-
-          {/* <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Pivot Point</h1>
-        </header> */}
-        <div className="App-intro">
-          <h2>Hello</h2>
+            {/* <img src={logo} className="App-logo" alt="logo" />
+            <h1 className="App-title">Pivot Point</h1>
+          </header> */}
+          <div className="App-intro">
+            <h2>Hello</h2>
+          </div>
+          <Nav></Nav>
+          <div id="hero"></div>
         </div>
-        <Nav></Nav>
-        <div id="hero"></div>
-      </div>
     );
   }
 }
@@ -27,11 +26,11 @@ class Nav extends Component {
     return(
       <div className="row">
         <ul id="nav" className="col-md-12">
-          <li>temp</li>
-          <li>temp</li>
-          <li>temp</li>
-          <li>temp</li>
-          <li>temp</li>
+          <li>temp </li>
+          <li>temp </li>
+          <li>temp </li>
+          <li>temp </li>
+          <li>temp </li>
         </ul>
       </div>
     );
