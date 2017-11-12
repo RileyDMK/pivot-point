@@ -24,6 +24,14 @@
   font-weight: 300;
 }
 
+#nav {
+  list-style-type: none;
+}
+
+#nav > li {
+  display: inline;
+}
+
 #hero {
   width:100%;
   height:calc(100vh - 200px);

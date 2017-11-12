@@ -5,8 +5,8 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <Nav></Nav>
+
+      <div className="container-fluid App">
         {/* <header className="App-header">
 
           {/* <img src={logo} className="App-logo" alt="logo" />
@@ -15,6 +15,7 @@ class App extends Component {
         <div className="App-intro">
           <h2>Hello</h2>
         </div>
+        <Nav></Nav>
         <div id="hero"></div>
       </div>
     );
@@ -24,7 +25,15 @@ class App extends Component {
 class Nav extends Component {
   render(){
     return(
-      <div>temp</div>
+      <div className="row">
+        <ul id="nav" className="col-md-12">
+          <li>temp</li>
+          <li>temp</li>
+          <li>temp</li>
+          <li>temp</li>
+          <li>temp</li>
+        </ul>
+      </div>
     );
   }
 }
